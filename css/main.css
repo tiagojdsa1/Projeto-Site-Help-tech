@@ -1,0 +1,399 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #efefef;
+    height: 125px;
+}
+
+main  {    
+    margin: 0 auto;
+    width: 1100px;
+    position: relative;
+}
+
+.logo {    
+    width: 80%;
+    float: left;    
+}
+
+.redes-sociais ul li {
+    margin-left: 20px;
+    display: inline-block;
+    float: left;   
+    margin-top: 1em; 
+}
+
+.redes-sociais {
+    width: 20%;
+    float: left;
+    padding-top: 15px;
+}
+
+.header-2 {
+    background-color: rgb(55, 216, 203);
+    width: 1100px;
+    margin: 4px auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;    
+    background-color: rgb(55, 216, 203);
+    border-bottom: 3px solid #efefef;
+}
+.menu ul li {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+}
+
+.menu ul li :hover {
+    color: #f1f1f1;
+    border-bottom: 3px solid #ffffff;
+
+}
+
+.menu ul li a {
+    color: rgb(17, 14, 14);
+    text-decoration: none;
+    font-size: 16px;    
+    text-transform: uppercase;    
+}
+
+.menu {
+    width: 80%;
+    float: left;    
+}
+
+.busca {
+    text-align: center;
+    width: 20%;
+    float: right;    
+}
+
+.busca input {
+    height: 16px;
+    margin-top: 10px;
+    width: 190px;
+    padding: 2px;
+    background-image: url('../img/pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: 2px solid #000000;
+    margin-left: 59px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;    
+}
+
+button.slick-prev {        
+    font-size: 0px;
+    border: none;
+    width: 75px;
+    height: 75px;
+    background: transparent; 
+    background-image: url('../img/anterior1.png');
+    z-index: 9;
+    position: absolute;
+    top: 44%;
+    left: 115px;
+    outline-style: none;
+    cursor: pointer;     
+}
+
+button.slick-next {        
+    font-size: 0px;
+    border: none;
+    width: 75px;
+    height: 75px;
+    background: transparent; 
+    background-image: url('../img/proximo1.png');
+    z-index: 9;
+    position: absolute;
+    top: 44%;     
+    right: 115px;
+    outline-style: none;
+    cursor: pointer;   
+}
+
+.slider-principal {
+    overflow: hidden;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+.slick-dots li button {
+    font-size: 0px;  
+    border: 5px solid #ffffff;  
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    outline-style: none;  
+}
+
+li.slick-active button {
+    background: rgb(15, 108, 94);
+
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 600px;
+}
+
+.texto-destaque {
+    text-align: center;    
+}
+
+.texto-destaque strong {
+    color: rgb(10, 8, 8);
+}
+
+.texto-destaque h1 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.texto-destaque p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+.col-6 {
+    width: 30%;
+    float: left;
+    position: relative;  
+    left: 80px;  
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.texto {
+
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+.col-4 {
+    float: left;
+    width: 33.3%;
+    position: relative;
+    left: 0px;
+    margin-top: 3em;    
+}
+
+.texto-destaque {
+    color: #000000;
+
+}
+.col-9 {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.bloco-informacao {
+    background-color: #efefef;
+    
+}
+
+.p1 {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 2px solid #989898;
+    padding-top: 0px;
+    padding-bottom: 33px;
+    margin-left: 7px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 1em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {
+    background-color: #e6e6e6
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';    
+    background: #ffffff;
+}
+
+.click {
+    width: 100%;
+    text-align: center;    
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 27px;
+    margin-top: 1em;    
+}
+
+.click a {
+    color: #4920ff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.click :hover {
+    color: #150040;
+    border-bottom: 3px solid #838286;
+
+}
+
+
+/* CONFIGURAÇÃO DO LOGO BY. Tiago Januário */
+
+.bloco-logos {
+    background-image: url('../img/parceiro.png');
+    width: 1920%;
+    height: 250px;
+    background-repeat: no-repeat;
+    display: inline-block;    
+}
+
+/* CONFIGURAÇÃO DO FOOTER BY. Tiago Januário */
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #000000;
+    width: 100%;
+      
+}
+
+.footer h3 {
+     text-align: center;
+}
+
+.col-4 {
+    width: 25%;
+    height: 225px;
+    float: left;
+    text-align: left;
+}
+
+.imgfooter {
+    border: transparent thin solid;
+    margin: -38px 1px -25px 130px;
+}
+
+.endereco::before {
+    content: '';
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url('../img/endereco.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.email::before {
+    content: '';
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url('../img/email.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.telefone::before {
+    content: '';
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url('../img/telefone.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.link {
+    list-style: none;
+    text-align: center;      
+}
+
+.link li {
+    margin-top: 20px;
+    color: #000000; 
+}
+
+.estilo-link {
+    margin: 20px 82px 0px 126px;
+}
+
+.link a {
+    text-decoration:none;
+    color: #050116;    
+}
+
+.link  a:hover {
+    color: #f1f1f1;
+    border-bottom: 3px solid #ffffff;
+}
+
+.footer1 {
+    padding: 15px;
+}
+
+.redes-footer ul li {
+    margin-left: 20px;
+    display: inline-block;      
+    margin-top: 1em; 
+    margin-right: 34px;
+    padding-top: 20px;
+}
+
+.redes-sociais {
+    width: 20%;
+    float: left;
+    padding-top: 15px;
+}
+
+.estilo-siga {
+    margin: 20px 215px 0px 120px;
+}
